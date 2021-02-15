@@ -2,7 +2,9 @@ import java.io.*;
 import java.util.*;
 import static java.lang.System.*;
 
-// Thanks to Pradeep Mondal P of GeeksForGeeks and vkostyukov of Github, whose work this program is largely based on
+/* Thanks to Pradeep Mondal P of GeeksForGeeks and vkostyukov of Github, whose approaches to Sudoku backtracking
+and brute-force this program is largely based on. */
+
 public class Sudoku {
    public static void main(String[] args) throws IOException {
       BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
